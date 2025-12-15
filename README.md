@@ -134,7 +134,7 @@ This section display the outputs generated during the analysis, organized by ana
 
 ---
 
-## 🔍 Key Analytical Questions
+### 🔍 Key Analytical Questions
 
 | 1. Total Crimes Count |
 |-----------------------|
@@ -206,7 +206,7 @@ This section display the outputs generated during the analysis, organized by ana
 
 ---
 
-## 🧩 Advanced SQL Techniques
+### 🧩 Advanced SQL Techniques
 
 | 1. Join: Schools in High-Hardship Communities |
 |-----------------------------------------------|
@@ -236,7 +236,7 @@ This section display the outputs generated during the analysis, organized by ana
 
 ---
 
-## 📊 Visual Insights
+### 📊 Visual Insights
 
 | 1. Crime Distribution by Primary Type |
 |---------------------------------------|
