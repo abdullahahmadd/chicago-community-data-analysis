@@ -9,28 +9,28 @@
 
 ---
 
-## Table of Contents
-1. [Overview](#overview)
-2. [Analytical Objective](#analytical-objective)
-3. [Project Structure](#project-structure)
-4. [Dataset Detail](#dataset-detail)
-5. [Tools & Technologies](#tools--technologies)
-6. [Libraries Used](#libraries-used)
-7. [Skills Demonstrated](#skills-demonstrated)
-8. [Quick Start / Usage](#quick-start--usage)
-9. [Project Workflow](#project-workflow)
-10. [Results](#results)
-11. [Key Findings](#key-findings)
-12. [About This Project](#about-this-project)
+## 📑 Table of Contents
+1. [Overview](#-overview)
+2. [Analytical Objective](#-analytical-objective)
+3. [Project Structure](#-project-structure)
+4. [Dataset Detail](#-dataset-detail)
+5. [Tools & Technologies](#-tools--technologies)
+6. [Libraries Used](#-libraries-used)
+7. [Skills Demonstrated](#-skills-demonstrated)
+8. [Quick Start / Usage](#-quick-start--usage)
+9. [Project Workflow](#-project-workflow)
+10. [Results](#-results)
+11. [Key Findings](#-key-findings)
+12. [About This Project](#-about-this-project)
 
 ---
 
-## Overview
+## 🧭 Overview
 This project focuses on analyzing community-level data for the City of Chicago by integrating socioeconomic indicators, public school performance metrics, and reported crime records. A SQLite relational database is used to perform structured SQL-based analysis and support insight generation.
 
 ---
 
-## Analytical Objective
+## 🎯 Analytical Objective
 - Analyze crime patterns across communities  
 - Examine socioeconomic conditions and hardship levels  
 - Evaluate school safety and attendance metrics  
@@ -38,7 +38,7 @@ This project focuses on analyzing community-level data for the City of Chicago b
 
 ---
 
-## Project Structure
+## 🗂️ Project Structure
 | Folder / File | Description |
 |---------------|-------------|
 | `Data/` | Contains raw CSV datasets used in the analysis |
@@ -51,7 +51,7 @@ This project focuses on analyzing community-level data for the City of Chicago b
 
 ---
 
-## Dataset Detail
+## 🧾 Dataset Detail
 | Dataset | Rows | Description |
 |------|------|------------|
 | Chicago Census Data | 79 | Community-level socioeconomic indicators |
@@ -62,7 +62,7 @@ This project focuses on analyzing community-level data for the City of Chicago b
 
 ---
 
-## Tools & Technologies
+## 🛠️ Tools & Technologies
 ---
 - SQL
 - Python  
@@ -71,7 +71,7 @@ This project focuses on analyzing community-level data for the City of Chicago b
 
 ---
 
-## Libraries Used
+## 📚 Libraries Used
 - ipython-sql
 - sqlite3
 - numpy
@@ -80,7 +80,7 @@ This project focuses on analyzing community-level data for the City of Chicago b
 
 ---
 
-## Skills Demonstrated
+## 🧠 Skills Demonstrated
 - Relational database design
 - Data loading and transformation  
 - SQL querying and joins    
@@ -90,7 +90,7 @@ This project focuses on analyzing community-level data for the City of Chicago b
 
 ---
 
-## Quick Start / Usage
+## 🚀 Quick Start / Usage
 1. Open the notebook in **Google Colab**
 2. Upload datasets from the `Data/` folder
 3. Run cells sequentially to:
@@ -101,7 +101,7 @@ This project focuses on analyzing community-level data for the City of Chicago b
 
 ---
 
-## Project Workflow
+## 🔄 Project Workflow
 
 1. **Data Collection**  
    Three publicly available datasets related to Chicago communities, schools, and crime were obtained and reviewed to understand their structure, scope, and key attributes.
@@ -129,12 +129,12 @@ This project focuses on analyzing community-level data for the City of Chicago b
 
 ---
 
-## Results
+## 📈 Results
 This section display the outputs generated during the analysis, organized by analytical queries, advanced SQL techniques, and visual insights.
 
 ---
 
-## 📊 Key Analytical Questions
+## 🔍 Key Analytical Questions
 
 | 1. Total Crimes Count |
 |-----------------------|
@@ -236,7 +236,7 @@ This section display the outputs generated during the analysis, organized by ana
 
 ---
 
-## 📈 Visual Insights
+## 📊 Visual Insights
 
 | 1. Crime Distribution by Primary Type |
 |---------------------------------------|
@@ -294,7 +294,7 @@ This section display the outputs generated during the analysis, organized by ana
 
 ---
 
-## 📌 Key Findings
+## 🏁 Key Findings
 ---
 
 - A total of **533 crime incidents** were recorded in the analyzed dataset, with crime concentration varying significantly across community areas.
@@ -308,7 +308,7 @@ This section display the outputs generated during the analysis, organized by ana
 
 ---
 
-## About This Project
+## ℹ️ About This Project
 ---
 - This project was developed as part of the **IBM Data Engineering Professional Specialization**.
 - It demonstrate practical SQL-based data analysis and database handling using real-world public datasets.
