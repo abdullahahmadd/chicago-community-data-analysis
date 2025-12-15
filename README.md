@@ -26,13 +26,11 @@
 ---
 
 ## Overview
----
 This project focuses on analyzing community-level data for the City of Chicago by integrating socioeconomic indicators, public school performance metrics, and reported crime records. A SQLite relational database is used to perform structured SQL-based analysis and support insight generation.
 
 ---
 
 ## Analytical Objective
----
 - Analyze crime patterns across communities  
 - Examine socioeconomic conditions and hardship levels  
 - Evaluate school safety and attendance metrics  
@@ -41,7 +39,6 @@ This project focuses on analyzing community-level data for the City of Chicago b
 ---
 
 ## Project Structure
----
 | Folder / File | Description |
 |---------------|-------------|
 | `Data/` | Contains raw CSV datasets used in the analysis |
@@ -55,7 +52,6 @@ This project focuses on analyzing community-level data for the City of Chicago b
 ---
 
 ## Dataset Detail
----
 | Dataset | Rows | Description |
 |------|------|------------|
 | Chicago Census Data | 79 | Community-level socioeconomic indicators |
@@ -76,7 +72,6 @@ This project focuses on analyzing community-level data for the City of Chicago b
 ---
 
 ## Libraries Used
----
 - ipython-sql
 - sqlite3
 - numpy
@@ -86,7 +81,6 @@ This project focuses on analyzing community-level data for the City of Chicago b
 ---
 
 ## Skills Demonstrated
----
 - Relational database design
 - Data loading and transformation  
 - SQL querying and joins    
@@ -97,7 +91,6 @@ This project focuses on analyzing community-level data for the City of Chicago b
 ---
 
 ## Quick Start / Usage
----
 1. Open the notebook in **Google Colab**
 2. Upload datasets from the `Data/` folder
 3. Run cells sequentially to:
@@ -109,7 +102,6 @@ This project focuses on analyzing community-level data for the City of Chicago b
 ---
 
 ## Project Workflow
----
 
 1. **Data Collection**  
    Three publicly available datasets related to Chicago communities, schools, and crime were obtained and reviewed to understand their structure, scope, and key attributes.
@@ -138,17 +130,15 @@ This project focuses on analyzing community-level data for the City of Chicago b
 ---
 
 ## Results
-
 This section display the outputs generated during the analysis, organized by analytical queries, advanced SQL techniques, and visual insights.
 
 ---
 
 ### Key Analytical Questions
----
 
 | 1. Total Crimes Count |
 |-----------------------|
-| ![Total Crimes](Results/key_analytical_questions/total_crimes.png) |
+| ![Total Crimes](Results/Key_Analytical_Questions/total_crimes.png) |
 | Displays the total number of crime records available in the dataset. |
 
 ---
