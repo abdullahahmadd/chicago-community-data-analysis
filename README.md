@@ -10,7 +10,6 @@
 ---
 
 ## Table of Contents
----
 1. [Overview](#overview)
 2. [Analytical Objective](#analytical-objective)
 3. [Project Structure](#project-structure)
