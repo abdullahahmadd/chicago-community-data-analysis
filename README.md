@@ -1,4 +1,4 @@
-# Chicago Community Data Analysis
+# 🏙️ Chicago Community Data Analysis
 ### 🎓 IBM Data Engineering Specialization – Portfolio Project
 
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=abdullahahmadd.chicago-community-data-analysis)
@@ -134,164 +134,162 @@ This section display the outputs generated during the analysis, organized by ana
 
 ---
 
-### Key Analytical Questions
+## 📊 Key Analytical Questions
 
 | 1. Total Crimes Count |
 |-----------------------|
-| ![Total Crimes]Results/Key Analytical Questions/total_crimes_count.png) |
+| ![Total Crimes](Results/Key%20Analytical%20Questions/total_crimes_count.png) |
 | Displays the total number of crime records available in the dataset. |
 
 ---
 
 | 2. Low Income Community Areas |
 |-------------------------------|
-| ![Low Income Communities](Results/Key Analytical Questions/low_income_community_areas.png) |
+| ![Low Income Communities](Results/Key%20Analytical%20Questions/low_income_community_areas.png) |
 | Identifies community areas with per capita income below the defined threshold. |
 
 ---
 
 | 3. Crimes Involving Minors |
 |----------------------------|
-| ![Crimes Involving Minors](Results/Key Analytical Questions/crimes_involving_minors.png) |
+| ![Crimes Involving Minors](Results/Key%20Analytical%20Questions/crimes_involving_minors.png) |
 | Lists crime cases where minors were involved based on crime descriptions. |
 
 ---
 
 | 4. Kidnapping Crimes Involving Children |
 |----------------------------------------|
-| ![Child Kidnapping Cases](Results/Key Analytical Questions/child_kidnapping_cases.png) |
+| ![Child Kidnapping Cases](Results/Key%20Analytical%20Questions/child_kidnapping_cases.png) |
 | Highlights kidnapping incidents specifically involving children. |
 
 ---
 
 | 5. Crimes Recorded at Schools |
 |-------------------------------|
-| ![School Crimes](Results/Key Analytical Questions/crime_types_at_schools.png) |
+| ![School Crimes](Results/Key%20Analytical%20Questions/crime_types_at_schools.png) |
 | Shows distinct crime types that occurred at school locations. |
 
 ---
 
 | 6. Average Safety Score by School Type |
 |---------------------------------------|
-| ![Avg Safety Score](Results/Key Analytical Questions/average_safety_score_by_school_type.png) |
+| ![Avg Safety Score](Results/Key%20Analytical%20Questions/average_safety_score_by_school_type.png) |
 | Compares average safety scores across elementary, middle, and high schools. |
 
 ---
 
 | 7. Top Communities by Poverty Rate |
 |-----------------------------------|
-| ![Top Poverty Communities](Results/Key Analytical Questions/top_5_communities_by_poverty.png) |
+| ![Top Poverty Communities](Results/Key%20Analytical%20Questions/top_5_communities_by_poverty.png) |
 | Ranks community areas by percentage of households below the poverty line. |
 
 ---
 
 | 8. Most Crime-Prone Community |
 |------------------------------|
-| ![Most Crime Prone Area](Results/Key Analytical Questions/most_crime_prone_community.png) |
+| ![Most Crime Prone Area](Results/Key%20Analytical%20Questions/most_crime_prone_community.png) |
 | Identifies the community area with the highest number of reported crimes. |
 
 ---
 
 | 9. Highest Hardship Index |
 |--------------------------|
-| ![Highest Hardship Index](Results/Key Analytical Questions/highest_hardship_index_community.png) |
-| Determines the community area with the highest hardship index using a subquery. |
+| ![Highest Hardship Index](Results/Key%20Analytical%20Questions/highest_hardship_index_community.png) |
+| Determines the community area with the highest hardship index. |
 
 ---
 
 | 10. Community with Most Crimes |
 |-------------------------------|
-| ![Community with Most Crimes](Results/Key Analytical Questions/community_with_most_crimes.png) |
+| ![Community with Most Crimes](Results/Key%20Analytical%20Questions/community_with_most_crimes.png) |
 | Maps crime counts to community names to identify the most affected area. |
 
 ---
 
-### Advanced SQL Techniques
----
+## 🧩 Advanced SQL Techniques
 
 | 1. Join: Schools in High-Hardship Communities |
 |-----------------------------------------------|
-| ![Schools High Hardship](Results/Advanced SQL Techniques/school_attendance_high_hardship.png) |
-| Uses joins to relate school attendance with community hardship levels. |
+| ![Schools High Hardship](Results/Advanced%20SQL%20Techniques/school_attendance_high_hardship.png) |
+| Uses SQL joins to relate school attendance with community hardship levels. |
 
 ---
 
 | 2. Join: Crimes at School Locations |
 |-------------------------------------|
-| ![Crimes at Schools Join](Results/Advanced SQL Techniques/crimes_at_school_locations.png) |
-| Combines crime and census data to analyze crimes occurring at schools. |
+| ![Crimes at Schools Join](Results/Advanced%20SQL%20Techniques/crimes_at_school_locations.png) |
+| Analyzes crimes occurring at school locations using joined datasets. |
 
 ---
 
 | 3. Privacy-Preserving School Ratings View |
 |-------------------------------------------|
-| ![School Ratings View](Results/Advanced SQL Techniques/school_ratings_view_all_columns.png) |
+| ![School Ratings View](Results/Advanced%20SQL%20Techniques/school_ratings_view_all_columns.png) |
 | Demonstrates use of SQL views to expose rating icons while hiding raw scores. |
 
 ---
 
-| 4. School name and leaders rating |
-|-------------------------------------------|
-| ![Leaders Ratings View](Results/Advanced SQL Techniques/school_leaders_rating_view.png) |
-| Demonstrates viewng of school names and their respective leaders raitng. |
+| 4. School Name and Leaders Rating |
+|----------------------------------|
+| ![Leaders Ratings View](Results/Advanced%20SQL%20Techniques/school_leaders_rating_view.png) |
+| Displays school names alongside leadership ratings from the created view. |
 
 ---
 
-### Visual Insights
----
+## 📈 Visual Insights
 
 | 1. Crime Distribution by Primary Type |
 |---------------------------------------|
-| ![Crime by Type](Results/Visual Insights/crime_distribution_by_primary_type.png) |
+| ![Crime by Type](Results/Visual%20Insights/crime_distribution_by_primary_type.png) |
 | Shows how reported crimes are distributed across major crime categories. |
 
 ---
 
 | 2. Crimes Reported by Year |
 |----------------------------|
-| ![Crimes by Year](Results/Visual Insights/crimes_by_year.png) |
-| Visualizes temporal trends in reported crime incidents. |
+| ![Crimes by Year](Results/Visual%20Insights/crimes_by_year.png) |
+| Visualizes year-wise trends in reported crime incidents. |
 
 ---
 
 | 3. Poverty Rate by Community (Top 10) |
 |--------------------------------------|
-| ![Poverty Top 10](Results/Visual Insights/poverty_rate_top_10_communities.png) |
+| ![Poverty Top 10](Results/Visual%20Insights/poverty_rate_top_10_communities.png) |
 | Highlights communities with the highest household poverty rates. |
 
 ---
 
 | 4. Hardship Index Distribution |
 |--------------------------------|
-| ![Hardship Distribution](Results/Visual Insights/hardship_index_distribution.png) |
+| ![Hardship Distribution](Results/Visual%20Insights/hardship_index_distribution.png) |
 | Displays the spread of hardship index values across communities. |
 
 ---
 
 | 5. Average Safety Score by School Type |
 |----------------------------------------|
-| ![Safety by School Type](Results/Visual Insights/average_safety_score_by_school_type_visual.png) |
+| ![Safety by School Type](Results/Visual%20Insights/average_safety_score_by_school_type_visual.png) |
 | Compares perceived safety across different school categories. |
 
 ---
 
 | 6. Poverty vs Per Capita Income |
 |--------------------------------|
-| ![Poverty vs Income](Results/Visual Insights/poverty_vs_per_capita_income.png) |
+| ![Poverty vs Income](Results/Visual%20Insights/poverty_vs_per_capita_income.png) |
 | Explores the relationship between poverty levels and income. |
 
 ---
 
 | 7. Crimes at Schools vs Other Locations |
 |----------------------------------------|
-| ![School vs Other Crimes](Results/Visual Insights/school_vs_non_school_crime_comparison.png) |
+| ![School vs Other Crimes](Results/Visual%20Insights/school_vs_non_school_crime_comparison.png) |
 | Contrasts crime frequency at schools versus non-school locations. |
 
 ---
 
 | 8. Average Student Attendance Distribution |
 |--------------------------------------------|
-| ![Attendance Distribution](Results/Visual Insights/student_attendance_distribution.png) |
+| ![Attendance Distribution](Results/Visual%20Insights/student_attendance_distribution.png) |
 | Shows how student attendance rates are distributed across schools. |
 
 ---
