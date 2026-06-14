@@ -1,4 +1,4 @@
-# 🏙️ Chicago Community Data Analysis
+# 🏙️ Chicago Community Data Analysis (Python, SQL)
 ### 🎓 IBM Data Engineering Specialization – Portfolio Project
 
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=abdullahahmadd.chicago-community-data-analysis)
